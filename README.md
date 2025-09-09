@@ -414,7 +414,7 @@ in this file. You can then click that to conveniently rerun the tests.
 
 - [x] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [x] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 Once the tests are passing and your work is on GitHub, you are ready to submit your code to MarkUs!
@@ -424,7 +424,7 @@ simply submit the URL that can be used to clone your GitHub repo.
 Given that URL, we can then clone your repo and get our own copy of
 your code to run the tests on.
 
-- [ ] Submit your code to MarkUs
+- [x] Submit your code to MarkUs
   - copy the URL from GitHub that you used to clone **your fork of the FizzBuzz repo**.
   - log into MarkUs and go to the `week1git` assignment.
   - submit the URL by pasting the URL into the submission box; do not change anything.
@@ -466,7 +466,7 @@ def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
 Once you complete these steps, you can copy the `MultiplesDefaultTest.java` file into the `test/lab1` directory
 and run the tests in it to check your work — debugging as needed.
 
-- [ ] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
+- [x] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
 
 > Since MarkUs already has your GitHub URL, you don't need to "resubmit" that; you can just rerun the self
 > tests on MarkUs, and it will clone a copy of your most recent code from GitHub. Neat!
