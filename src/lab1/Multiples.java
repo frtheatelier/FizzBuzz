@@ -24,7 +24,7 @@ public class Multiples {
         // the sample space is numbers less than n
         // A is the set of numbers divisible by a
         // B is the set of numbers divisible by b
-        // A \cap B is the set of numbers divisible by both ab
+        // A \cap B is the set of numbers divisible by both a and b
         // What we are looking for here is A \cup B, which is |A| + |B| - |A \cap B|
 
         return multOfA + multOfB - multOfAB;
