@@ -25,7 +25,7 @@ class FizzBuzz {
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         // the curly brackets are used in place of colon
 
         // Find out which numbers divide i.
