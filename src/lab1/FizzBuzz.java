@@ -7,30 +7,48 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+        fizzbuzzFor();
+        fizzbuzzWhile();
+    }
 
-            // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
+    private static void fizzbuzzFor() {
+        for (int i = 1; i < 100; i++) { // for loop in java is reminiscent of cpp ; brackets and require defining var
+            doFizzBuzz(i);
+        }
+    }
 
-            // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
+    private static void fizzbuzzWhile() {
+        int i=0;
+        while (i < 100) {
+            doFizzBuzz(i);
+            i++;
+        }
+    }
 
-                System.out.println("Fizz Buzz");
+    private static void doFizzBuzz(int i) {
+        // the curly brackets are used in place of colon
 
-            } else if (divisibleBy3) {
+        // Find out which numbers divide i.
+        boolean divisibleBy3 = i % 3 == 0; // mod is the same lol, equivalent thing is also the same
+        boolean divisibleBy5 = i % 5 == 0;
 
-                System.out.println("Fizz");
+        // Print our appropriate result.
+        if (divisibleBy3 && divisibleBy5) { // and: &&
 
-            } else if (divisibleBy5) {
+            System.out.println("Fizz Buzz"); // println: print new line i think
 
-                System.out.println("Buzz");
+        } else if (divisibleBy3) { // elif -> else if lol
 
-            } else {
+            System.out.println("Fizz");
 
-                System.out.println(i);
+        } else if (divisibleBy5) {
 
-            }
+            System.out.println("Buzz");
+
+        } else {
+
+            System.out.println(i);
+
         }
     }
 }
