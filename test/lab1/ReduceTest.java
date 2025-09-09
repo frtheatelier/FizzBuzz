@@ -15,12 +15,18 @@ public class ReduceTest {
         assertEquals(9,
                 Reduce.reduce(100),
                 "Reduce.reduce(100) is incorrect");
+        assertEquals(9,
+                Reduce.reduceRecurse(100),
+                "Reduce.reduce(100) is incorrect");
     }
 
     @Test
     public void testReduceTwoHundred() {
         assertEquals(10,
                 Reduce.reduce(200),
+                "Reduce.reduce(200) is incorrect");
+        assertEquals(10,
+                Reduce.reduceRecurse(200),
                 "Reduce.reduce(200) is incorrect");
     }
 
@@ -29,6 +35,9 @@ public class ReduceTest {
         assertEquals(8,
                 Reduce.reduce(42),
                 "Reduce.reduce(42) is incorrect");
+        assertEquals(8,
+                Reduce.reduceRecurse(42),
+                "Reduce.reduce(42) is incorrect");
     }
 
     @Test
@@ -36,12 +45,18 @@ public class ReduceTest {
         assertEquals(1,
                 Reduce.reduce(1),
                 "Reduce.reduce(1) is incorrect");
+        assertEquals(1,
+                Reduce.reduceRecurse(1),
+                "Reduce.reduce(1) is incorrect");
     }
 
     @Test
     public void testReduceTwo() {
         assertEquals(2,
                 Reduce.reduce(2),
+                "Reduce.reduce(2) is incorrect");
+        assertEquals(2,
+                Reduce.reduceRecurse(2),
                 "Reduce.reduce(2) is incorrect");
     }
 }
