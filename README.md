@@ -55,7 +55,8 @@ which enables basic typesetting when viewed while still being a plaintext format
 editing and version control.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] (with no spaces) to mark this as done!
+
+- [x] Put an X in the [ ] (with no spaces) to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -74,7 +75,7 @@ Formally as a coding task, let `i` be an integer greater than zero and output th
 * If `i` is divisible by 3 and 5, print the string `Fizz Buzz` (note the space)
 * Otherwise, print the value of `i`
 
-- [ ] Try a short game of Fizz Buzz with your team now.
+- [x] Try a short game of Fizz Buzz with your team now.
 
 ---
 
@@ -133,7 +134,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src/lab1` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -153,7 +154,7 @@ the code are doing. For example, what's the Java version of Python's `and`? What
 on with that weird `for` loop? As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
-- [ ] Make note of any specific Java syntax which stands out to you and compare what you
+- [x] Make note of any specific Java syntax which stands out to you and compare what you
 come up with the rest of your team. Try to come up with a list of at least five things that
 strike you as either similar to or different from Python.
 
@@ -177,7 +178,7 @@ method `main` in the file you choose to run.
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [x] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -195,7 +196,7 @@ test the calculation for several interesting numbers more easily.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify that it still works.
+- [x] Rerun the program to verify that it still works.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -208,7 +209,7 @@ That's your first big IntelliJ trick! There are lots more.
 
 Now that you've made your first edits to your code, you should ask git to save these changes for you.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
+- [x] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
   modified `FizzBuzz.java` (and possibly this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
@@ -229,27 +230,28 @@ a sequence of three git commands:
    will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [x] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made
+  there.
 
-- [ ] repeat the above steps for `README.md` (or try using the approach below).
+- [x] repeat the above steps for `README.md` (or try using the approach below).
 
 > Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
-If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
-From that you can select `Commit...`, which will allow you to add and commit files (you use checkboxes to
-indicate which files to add and put the commit message in the textbox, then press the commit button).
-That menu also gives you the option to commit and push in one step if you wish to do so.
-If you chose to only commit, then you can later go back to the `Git` menu and choose `Push...` to open a
-menu to then push your commits to your remote GitHub repository. When you try to push, you will be prompted
-to provide a GitHub access Token to authenticate if you haven't already added one. There will be a `Generate...`
-button in the popup. Clicking that will take you to a GitHub page which will generate the token for you. Once
-you generate the token, you copy it into the dialog box in IntelliJ and the push should go through. If you
-have trouble with this, please ask and someone around can help you through the steps.
+> If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
+> From that you can select `Commit...`, which will allow you to add and commit files (you use checkboxes to
+> indicate which files to add and put the commit message in the textbox, then press the commit button).
+> That menu also gives you the option to commit and push in one step if you wish to do so.
+> If you chose to only commit, then you can later go back to the `Git` menu and choose `Push...` to open a
+> menu to then push your commits to your remote GitHub repository. When you try to push, you will be prompted
+> to provide a GitHub access Token to authenticate if you haven't already added one. There will be a `Generate...`
+> button in the popup. Clicking that will take you to a GitHub page which will generate the token for you. Once
+> you generate the token, you copy it into the dialog box in IntelliJ and the push should go through. If you
+> have trouble with this, please ask and someone around can help you through the steps.
 
->Tip: It is good practice to get in the habit of making commits that are small and have a distinct purpose.
-For example, one might imagine making a commit each time they complete a task they are working on or finish
-making edits to a specific file. Keeping your commits small will allow your commit messages to remain short and descriptive.
-You can make a sequence of adds and commits without pushing. Whenever you decide to push, you can push all your
-commits at once. As you work through the lab today, we encourage you to practice commiting your changes regularly
+> Tip: It is good practice to get in the habit of making commits that are small and have a distinct purpose.
+> For example, one might imagine making a commit each time they complete a task they are working on or finish
+> making edits to a specific file. Keeping your commits small will allow your commit messages to remain short and descriptive.
+> You can make a sequence of adds and commits without pushing. Whenever you decide to push, you can push all your
+> commits at once. As you work through the lab today, we encourage you to practice commiting your changes regularly
 (the exact frequency is up to you, but the instructions will remind you periodically!).
 
 Now, back to exploring the code!
@@ -314,10 +316,10 @@ else needs a way to update their local copies to reflect these changes. Git prov
 
 You can use `git pull` to get the latest changes from the remote repository.
 
->Note: you have to be careful though, because
-if you have local changes to the same files, then there could be conflicting changes which will need to be resolved. We'll
-talk more about that complication later — but just know that since such conflicts can so easily arise git has
-ways to help you resolve conflicts without too much difficulty.
+> Note: you have to be careful though, because
+> if you have local changes to the same files, then there could be conflicting changes which will need to be resolved. We'll
+> talk more about that complication later — but just know that since such conflicts can so easily arise git has
+> ways to help you resolve conflicts without too much difficulty.
 
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
